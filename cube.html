@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>cube</title>
+        <style>
+            table{
+                border: 2px solid black;
+                border-radius: 5px ;
+                transition: all 2s;
+                margin: 40px;
+            }
+            td{
+                border: 2px solid black;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            tr{
+                background-color: aqua;
+                
+            }
+            @keyframes example {
+            0%   {transform: rotateY(0deg);}
+            100%{transform: rotateY(360deg);}
+            
+            }
+
+            .one:hover{
+                background-color: greenyellow;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+            .seven:hover{
+                background-color:rgb(241, 22, 22);
+                animation-name: example;
+                animation-duration: 4s;
+            }
+            .o1:hover{
+                background-color: blue;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+            .o9:hover{
+                background-color: yellow;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+            .o25:hover{
+                background-color: orange;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+            .even:hover{
+                background-color: purple;
+                animation-name: example;
+                animation-duration: 4s;
+                color: white;
+            }
+            .odd:hover{
+                background-color:black;
+                animation-name: example;
+                animation-duration: 4s;
+                color: white;
+            
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+        <table>
+            <tr>
+                <td class="one">green</td>
+                <td class="even">2</td>
+                <td class="odd">3</td>
+                <td class="even">4</td>
+                <td class="odd">5</td>
+            </tr>
+            <tr>
+                <td class="even">6</td>
+                <td class="seven">Red</td>
+                <td class="even">8</td>
+                <td class="odd">9</td>
+                <td class="even">10</td>
+            </tr>
+            <tr>
+                <td class="odd">11</td>
+                <td class="even">12</td>
+                <td class="o1">blue</td>
+                <td class="even">14</td>
+                <td class="odd">15</td>
+            </tr>
+            <tr>
+                <td class="even">16</td>
+                <td class="odd">17</td>
+                <td class="even">18</td>
+                <td class="o9">yellow</td>
+                <td class="even">20</td>
+            </tr>
+            <tr>
+                <td class="odd">21</td>
+                <td class="even">22</td>
+                <td class="odd">23</td>
+                <td class="even">24</td>
+                <td class="o25">Orange</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>
